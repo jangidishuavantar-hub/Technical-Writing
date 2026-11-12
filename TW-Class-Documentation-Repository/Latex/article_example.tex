@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{myblue}{RGB}{30,90,160}
+
+\title{A Short LaTeX Article}
+\author{TW Class}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+LaTeX is useful for preparing structured technical documents.
+\textcolor{myblue}{This sentence demonstrates coloured text.}
+
+\section{Mathematics}
+An inline expression is $a^2+b^2=c^2$.
+A displayed equation is
+\[
+  E = mc^2.
+\]
+Two aligned equations:
+\begin{align}
+  x+y &= 10 \\
+  x-y &= 2
+\end{align}
+
+\section{A Table}
+\begin{tabular}{|l|c|}
+\hline
+Tool & Purpose \\
+\hline
+LaTeX & Typesetting \\
+Beamer & Presentations \\
+\hline
+\end{tabular}
+
+\section{An Image}
+% Replace example-image with an image file in this directory.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.35\textwidth]{example-image}
+  \caption{Sample image placeholder}
+\end{figure}
+
+\end{document}

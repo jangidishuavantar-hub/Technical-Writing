@@ -1,0 +1,10 @@
+# Minimal configuration example. Generate a full file with: doxygen -g Doxyfile
+PROJECT_NAME           = "TW Doxygen Example"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = example.cpp
+RECURSIVE              = NO
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+QUIET                  = YES

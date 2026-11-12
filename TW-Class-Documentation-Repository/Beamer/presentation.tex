@@ -1,0 +1,42 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\title{Introduction to Beamer}
+\author{TW Class}
+\institute{Technical Writing}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{What is Beamer?}
+  Beamer is a LaTeX class used to prepare slide presentations.
+  \begin{itemize}
+    \item Slides are written inside the \texttt{frame} environment.
+    \item Themes provide a consistent design.
+    \item Equations and tables use familiar LaTeX syntax.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{A Mathematical Example}
+  The quadratic formula is
+  \[
+    x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.
+  \]
+  \textcolor{blue}{LaTeX formatting also works in Beamer slides.}
+\end{frame}
+
+\begin{frame}{Summary}
+  \begin{enumerate}
+    \item Create a Beamer document.
+    \item Add frames for slides.
+    \item Choose a theme and compile.
+  \end{enumerate}
+\end{frame}
+
+\end{document}

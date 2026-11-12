@@ -1,0 +1,20 @@
+TW-Class-Documentation-Repository/
+|-- README.md
+|-- FOLDER_STRUCTURE.txt
+|-- Latex/
+|   |-- README.md
+|   |-- article_example.tex
+|   `-- report_example.tex
+|-- Beamer/
+|   |-- README.md
+|   `-- presentation.tex
+|-- Doxygen/
+|   |-- README.md
+|   |-- Doxyfile
+|   `-- example.cpp
+|-- GoogleDocs/
+|   `-- README.md
+`-- Git-and-GitHub/
+    |-- README.md
+    |-- GIT_COMMANDS.md
+    `-- GITHUB_UPLOAD_STEPS.md
